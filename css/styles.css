@@ -1,0 +1,462 @@
+:root{
+    
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1; 
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.menu__header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.menu__logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__titulo { 
+    font-size: 1.17rem;
+    font-weight: bold;
+    padding-left: .5rem;
+    
+}
+
+.menu__lista__items {
+    display: none;
+    padding-right: 1.5rem;
+}
+
+
+
+.menu__lista__items-activo {
+    font-weight: bold;
+
+}
+
+.menu__lista__items-link {
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+
+}
+
+.titulo__div {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.titulo__imagen {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.titulo__bio {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.titulo__subseccion {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.titulo__network {
+    display: flex;
+
+}
+
+.titulo__network__item {
+    font-weight: bold;
+    
+
+}
+
+.sobre__mi {
+    background: #e6effc;
+    
+}
+
+.sobre-mi{
+   
+    align-items: center;
+}
+
+.sobre-mi__titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.sobre-mi__descripcion {
+    
+    font-weight: bold;
+    padding-bottom: 2rem;
+    
+}
+
+.skills__titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.skills__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills__caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #FFF;
+    border-radius: 10px; 
+}
+
+.skills__imagen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.skills__nombre {
+    text-align: center;
+}
+
+
+.hobbies__titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+.hobbies__contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies__caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 6rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #FFF;
+    border-radius: 10px; 
+}
+
+.hobbies__imagen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.formacion {
+    background: #e6effc;
+}
+
+.formacion__titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.formacion__contenedor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+
+}
+
+.formacion__caja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height: 7rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #FFF;
+    border-radius: 10px;
+    
+}
+
+.formacion__imagen{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.formacion__nombre {
+    text-align: center;
+}
+
+
+.experiencia__titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.experiencia__caja {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.experienci__imagen {
+    width: 100%;
+}
+
+.experiencia__encabezado {    
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0 1rem 2rem;
+}
+
+.experiencia__descripcion {
+    text-align: start;
+    margin: 1.5rem 2rem;
+} 
+
+.boton a {   
+    border: 2px solid #2A7AE4;
+    margin: 3rem 0 0 2rem ;
+    padding: 0.5rem;
+}
+
+.boton__repositori {
+    color: #2A7AE4;
+}
+
+.boton__demo {
+    color: #ffffff;
+    background: #2A7AE4;
+}
+
+.contacto {
+    display: flex;
+    background: #e6effc;
+    padding: 2rem 0;
+    
+}
+
+
+.contacto__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 1rem 2rem;
+}
+
+.contacto__imagen {
+    display: none;
+}
+
+.contacto__caja {
+    align-items: center;
+}
+
+.contacto__descripcion {
+    margin-bottom: .5rem;
+}
+
+.contacto__formulario {
+    display: flex;
+    flex-direction: column;  
+}
+
+.contacto__formulario-item {
+    height: 3rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.contacto__formulario-mesaje {
+    width: 80%;
+}
+
+.error-message {
+    display: none;
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+  }
+  .contacto__formulario-item.error {
+    
+    border-color: red;
+  }
+
+
+.boton__enviar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+.boton__enviar:hover {
+    background-color: #0062cc;
+  }
+
+.footer {
+    padding: 3rem 0;
+}
+.footer__texto {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    .titulo__bio {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .titulo__network__item {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+    
+    }
+
+    .skills__contenedor {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hobbies__contenedor {
+        display: flex;
+        justify-content: center;
+    }
+
+    .formacion__contenedor{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    
+    }
+
+    .experiencia__caja {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .experienci__imagen {
+        display: flex;
+        width: 60%;
+    }
+
+    .experiencia__encabezado {    
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 0 0 1rem 2rem;
+    }
+
+   
+
+    .contacto__caja {
+        margin-left: 2rem;
+    }
+
+    .contacto__formulario-item {
+        height: 3rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .contacto__formulario-mesaje {
+        width: 100%;
+    }
+        
+}
+
+@media screen and (min-width: 920px) {
+
+    .menu__lista__items {
+        display: block;
+    }
+
+    .titulo__div{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        }
+
+        .titulo__imagen {
+            
+            margin-left: 1rem;
+            order: 5;
+        }
+    .contacto__imagen {
+        display: block;
+    }
+
+}
+
+    
